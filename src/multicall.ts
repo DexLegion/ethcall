@@ -38,10 +38,6 @@ function getMulticall(chainId: number): Multicall | null {
       address: '0x5e954f5972EC6BFc7dECd75779F10d848230345F',
       block: 0,
     },
-    27: {
-      address: '0x982bcaa7D359700F1D4Cb80BF025694a21EcF704', //shibchain
-      block: 1426,
-    },
     42: {
       address: '0x2cc8688c5f75e365aaeeb4ea8d6a480405a48d2a',
       block: 11482433,
@@ -97,6 +93,10 @@ function getMulticall(chainId: number): Multicall | null {
     1337: {
       address: '0x77dca2c955b15e9de4dbbcf1246b4b85b651e50e',
       block: 0,
+    },
+    1923: {
+      address: '0x982bcaa7D359700F1D4Cb80BF025694a21EcF704', //shibchain
+      block: 1426,
     },
     4689: {
       address: '0x0e14ded9e7965c6446df2e5c528dd1b4e3b4640f',
