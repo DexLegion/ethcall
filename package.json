@@ -1,17 +1,11 @@
 {
   "name": "@hovoh/ethcall",
-  "version": "9.9.5",
-  "description": "ethers.js-compatible wrapper around Multicall",
-  "author": "Timur Badretdinov <destinerx@gmail.com>",
+  "version": "9.9.6",
   "keywords": [
     "ethers",
     "ethereum"
   ],
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Destiner/ethcall.git"
-  },
   "main": "lib/index.js",
   "scripts": {
     "test": "vitest run",
