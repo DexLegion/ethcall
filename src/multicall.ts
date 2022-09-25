@@ -6,6 +6,14 @@ interface Multicall {
 
 function getMulticall(chainId: number): Multicall | null {
   const addressMap: Record<number, Multicall | null> = {
+    61: {
+      address: '0x4eB40cdED058aDDdA71cfd22D1ab4F002DC49410',
+      block: 15991443,
+    },
+    2000: {
+       address: '0x7bEE57dEbD5ACe4f6A665A7a5e7F4Af5d8E2dA5F,
+       block: 2462866,
+    },
     1: {
       address: '0xeefba1e63905ef1d7acba5a8513c70307c1ce441',
       block: 7929876,
